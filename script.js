@@ -113,7 +113,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     startButton.addEventListener('click', () => {
         overlay.style.display = 'none';
-        startCountdown(90); // 1분 30초 (90초) 카운트다운
+        startCountdown(60); // 1분 00초 (60초) 카운트다운
         canFlip = true;
     });
 
